@@ -1,0 +1,3 @@
+<% 50.times do |i| %>
+	<%= render :partial=>"silly", :locals=>{:"variable_#{i}"=> i*5, :num=>i } %>
+<% end %>
