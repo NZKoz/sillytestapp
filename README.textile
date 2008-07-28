@@ -1,0 +1,3 @@
+# You probably don't care about this application.
+
+We're using it for testing some internal changes in action view.  It's not intended for benchmarking, profiling, or anything else.
