@@ -1,5 +1,5 @@
 <h1> Isn't it nice to greet people</h1>
 
 <% @greetings.each do |greeting| %>
-	<p> <%=h greeting.comment %> to <%= greeting.recipients.map(&:name).to_sentence %></p>
+  <p><%=h greeting.comment %> to <%= greeting.recipients.map { |r| r.name }.to_sentence %></p>
 <% end %>
